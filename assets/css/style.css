@@ -48,6 +48,10 @@
     margin-right: 100px;
 }
 
+p {
+    font-family: 'Inconsolata', monospace;
+}
+
 /* ----- footer ----- */
 
 footer {
@@ -89,7 +93,7 @@ footer {
     text-align: center;
 }
 
-/* ----- card-deck ----- */
+/* ----- card-decks ----- */
 
 .card-deck {
     background-color: transparent;
@@ -172,4 +176,11 @@ footer {
         max-width: 100%;
         min-height: 250px;
     }
+}
+
+
+/* ----- biography ----- */
+
+.h1 biography {
+    font-family: 'Inconsolata', monospace;
 }
