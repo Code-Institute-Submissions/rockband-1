@@ -2,32 +2,33 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Noto+Sans+KR" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale-1">
 </head>
 
 <body>
 
     <!-- Boostrap nav bar -->
-
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="/index.html">THE MONKEES</a>
         <button class="navbar-toggler" type="button btn-light" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="biog.html">History</a>
+                    <a class="nav-link" href="biog.html">Biography</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">News</a>
@@ -39,21 +40,93 @@
                     <a class="nav-link" href="photos.html">Photos</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-            </form>
         </div>
     </nav>
+    
 
-    <!-- Slideshow -->
+    <!-- Photo Showcase using FancyBox -->
+    <div class="container">
+        <div>
+            <h1 class="page-header">Photos</h1>
+            <hr class="hr-dark">
+        </div>
+    </div>
+        
+    <div class="container text-center">
+        <div class="photo-showcase">
+            
+            <div class="responsive">
+                <div class="gallery">
+                    <a data-fancybox="gallery" href="images/cover.jpg">
+                        <img src="images/cover.jpg" width="300" height="200"></a>
+                </div>
+            </div>
+            
+            <div class="responsive">
+                <div class="gallery">
+                    <a data-fancybox="gallery" href="images/nesmith.jpg">
+                        <img src="images/nesmith.jpg" width="300" height="200"></a>
+                </div>
+            </div>
+                
+            <div class="responsive">
+                <div class="gallery">
+                    <a data-fancybox="gallery" href="images/monkeeslivewembley.jpeg">
+                        <img src="images/monkeeslivewembley.jpeg" width="300" height="200"></a>
+                </div>
+            </div>
+                
+            <div class="responsive">
+                <div class="gallery">
+                    <a data-fancybox="gallery" href="images/jones.jpg">
+                        <img src="images/jones.jpg" width="300" height="200"></a>
+                </div>
+            </div>
+                
+            <div class="responsive">   
+                <div class="gallery">
+                    <a data-fancybox="gallery" href="images/dolenz.jpg">
+                        <img src="images/dolenz.jpg" width="300" height="200"></a>
+                </div>
+            </div>
+                
+            <div class="responsive">   
+                <div class="gallery">
+                    <a data-fancybox="gallery" href="images/The-Monkees.jpg">
+                        <img src="images/The-Monkees.jpg" width="300" height="200"></a>
+                </div>
+            </div>
+                
+            <div class="responsive">   
+                <div class="gallery">
+                    <a data-fancybox="gallery" href="images/the-Monkees3.jpg">
+                        <img src="images/the-Monkees3.jpg"></a>
+                </div>
+            </div>
+                        
+            <div class="responsive">   
+                <div class="gallery">       
+                    <a data-fancybox="gallery" href="images/monkees.jpg">
+                        <img src="images/monkees.jpg"></a>
+                </div>
+            </div>
+            
+            <div class="responsive">   
+                <div class="gallery"> 
+                    <a data-fancybox="gallery" href="images/monkees2.jpg">
+                        <img src="images/monkees2.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="clearfix"></div>
 
-    <a data-fancybox="gallery" href="/assets/images/cover3.jpg"><img src="/assets/images/cover3.jpg"></a>
-    <a data-fancybox="gallery" href="/assets/images/cover.jpg"><img src="/assets/images/cover.jpg"></a>
+ 
 
     <!-- Footer -->
-
-    <footer class="container-fluid">
+<footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-12">
                 <ul class="list-inline">
@@ -63,16 +136,18 @@
                 </ul>
                 <h5 class="uppercase general-sub">Social</h5>
                 <ul class="list-inline social-links">
-                    <li class="list-inline-item"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="list-inline-item"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li class="list-inline-item"><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
-                    <li class="list-inline-item"><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li class="list-inline-item"><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://en-gb.facebook.com/TheMonkees/">
+                        <i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://twitter.com/TheMonkees?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                        <i class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/themonkees/?hl=en">
+                        <i class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.youtube.com/user/themonkees">
+                        <i class="fa fa-youtube"></i></a></li>
                 </ul>
             </div>
         </div>
-    </footer>
+</footer>
 
     <!-- latest jQuery and fancybox files -->
     <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>

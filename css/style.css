@@ -1,0 +1,278 @@
+/* ----- navbar ----- */
+
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-size: 250%;
+    padding-left: 20px;
+}
+
+.navbar {
+    font-family: 'Inconsolata', monospace;
+    -webkit-box-shadow: 0 8px 6px -6px #212529;
+    -moz-box-shadow: 0 8px 6px -6px #212529;
+    box-shadow: 0 8px 6px -6px #212529;
+    height: 80px;
+    background-color: #7f0000;
+}
+
+.navbar-nav {
+    font-size: 120%;
+    padding-right: 20px;
+}
+
+/* ----- main image and text ----- */
+
+.album-cover{
+    background: url("../images/sunset.jpg") no-repeat center;
+    width: 100%;
+    opacity: 0.9;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.btn btn-dark {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    padding: 0;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+.jumbotron {
+    margin-right; 250px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background: none;
+    padding: 5px 0px;
+    color: #b71c1c;
+}
+
+p {
+    font-family: 'Inconsolata', monospace;
+    color: #8f8f8f;
+}
+
+/*
+.sub-headline {
+    font-size: 1000%;
+    padding:0;
+} */
+
+.headline{
+    font-size: 800%;
+}
+
+
+/* ----- footer ----- */
+
+footer {
+    background-color: #343a40;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.social-links li a i {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links {
+    text-align: center;
+    padding: 3px;
+}
+
+.general-sub {
+    text-align: center;
+}
+
+.list-inline {
+    text-align: center;
+}
+
+/* ----- card-decks ----- */
+
+.card-deck {
+    background-color: transparent;
+    color: #fafafa;
+    font-family: 'Inconsolata', monospace;
+    margin: 20px;
+}
+
+.card {
+    color: #7f0000;
+    font-family: 'Inconsolata', monospace;
+    margin: 10px 2px 10px 2px;
+}
+
+.card-text {
+    color: #212529;
+}
+
+.card-title {
+    font-family: 'Oswald', sans-serif;
+}
+
+.card-img-top {
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+/* ----- events listing ----- */
+
+/* how do I make table responsive? */
+
+.date {
+    padding: 2px;
+    text-align: center;
+    color: #b71c1c;
+}
+
+.event-listing {
+    padding: 5px 40px 80px 40px;
+    width: 100%;
+    font-family: 'Inconsolata', monospace;
+    overflow: auto;
+}
+
+.shows {
+    padding: 5px;
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #b71c1c;
+}
+
+
+
+/* ----- Gallery ----- */
+
+/* How do I get wrapper and thumbnails to center? */
+
+.page-header{
+    margin: 20px;
+    text-align: center;
+    color: #b71c1c;
+}
+
+.hr-dark{
+    width: 75%;
+}
+
+/*
+.photo-showcase{
+    width: 1000px;
+    margin: auto;
+} 
+*/
+/*
+.gallery img {
+  width: 100%;
+  height: auto;
+} */
+
+div.gallery a img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 1px;  /* Rounded border */
+    padding: 3px;
+}
+
+div.gallery img {
+  max-width: 100%;
+  height: auto;
+} 
+
+.responsive {
+  padding: 10px;
+  float: left;
+  width: 33%;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* ----- hover ----- */
+
+/* hover effect (red shadow) */
+.gallery:hover {
+  box-shadow: 0 0 2px 1px #f05545;
+}
+
+.social-links li a i:hover {
+    background-color: #7f0000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.hvr-sweep-to-right:before {
+    background-color: #f05545;
+}
+
+
+/* ----- media queries ----- */
+
+
+@media screen and (max-width: 768px) {
+    .headline {
+        font-size: 400%;
+    } 
+}
+
+
+@media only screen and (max-width: 768px) {
+  .responsive {
+    width: 49%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
