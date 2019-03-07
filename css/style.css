@@ -136,7 +136,7 @@ footer {
     margin: 20px;
 }
 
-.card {
+.card .card1 .card2 .card3 {
     color: #7f0000;
     font-family: 'Inconsolata', monospace;
     margin: 10px 2px;
@@ -148,6 +148,7 @@ footer {
 
 .card-title {
     font-family: 'Oswald', sans-serif;
+    color: #b71c1c;
 }
 
 .card-img-top {
@@ -218,9 +219,9 @@ html {
     padding-bottom: 20px;
 }
 
-.sub-header {
+/*.sub-header {
     text-align: center;
-}
+}*/
 
 .youtube-video {
     width: 90%;
@@ -253,6 +254,7 @@ html {
 
 .track-listing {
     padding: 20px;
+    font-family: 'Inconsolata', monospace;
 }
 
 .spotify {
@@ -310,22 +312,38 @@ form {
 /* ----- media queries ----- */
 
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
+    .responsive {
+    width: 49%;
+    margin: 6px 0;
+    }
+    .card3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    footer {
+        height: 100px;
+    }
+    .general-sub p {
+        display: none;
+    }
+    .general-sub {
+        text-align: center;
+        padding-bottom: 5px;
+        padding-left: 0;
+        margin: 0;
+        display: inline-block;
+    }
+    .social-links {
+        text-align: center;
+        padding-right: 0;
+    }
     .headline {
         font-size: 400%;
     } 
-}
-
-
-@media only screen and (max-width: 992px) {
-  .responsive {
-    width: 49%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
+    .responsive {
     width: 100%;
   }
 }
