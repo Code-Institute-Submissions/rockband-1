@@ -32,8 +32,16 @@
     background-size: cover;
 }
 
+
+/* how do I target the button to remove blue underline?*/
+
 .btn btn-dark {
     font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+.button href {
+    text-decoration: none;
 }
 
 h1 {
