@@ -40,7 +40,15 @@
     text-decoration: none;
 }
 
-.button href {
+p.btn btn-dark {
+    text-decoration: none;
+}
+
+div.button {
+    text-decoration: none;
+}
+
+p.button{
     text-decoration: none;
 }
 
@@ -72,12 +80,6 @@ p {
     font-family: 'Inconsolata', monospace;
     color: #8f8f8f;
 }
-
-/*
-.sub-headline {
-    font-size: 1000%;
-    padding:0;
-} */
 
 .headline{
     font-size: 800%;
@@ -211,6 +213,10 @@ div.gallery a img {
   float: left;
   width: 32%;
   margin: 0;
+}
+
+.photo-showcase {
+    margin-bottom: 100px;
 }
 
 html {
