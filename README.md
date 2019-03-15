@@ -113,6 +113,12 @@ of a recent wedding or party.
 HTML5 was used to construct the website
 CSS3 was used to add styling to the website, and customsisation of the frameworks and libraries listed below.
 
+#### Cloud9
+The IDE used to develop the website was Cloud9
+
+### GitHub
+GitHub was used to back up the code via a remote reposistory.
+
 #### Boostrap (jumotron, form, tables, card-decks, navbar, grid)
 https://getbootstrap.com/docs/4.3/getting-started/introduction/ 
 I used Boostrao to provide framework to key features and to save developer time.
@@ -160,7 +166,7 @@ Desired outcome: Listen to music
 - Click on Spotify audio play bar to verify that users can listen to the album
 - click on album covers to verify that this takes users to Spotify to view and listen to albums
 - Try to listen to music on smaller screen indicates that the page is responsive but needs further adaptions for a better user experience. For example,
-the 'More Releases' album covers are too small.
+the 'More Releases' album covers are too small. FIXED- added media query for screens under 996px
 
 Deaired outcome: View forthcoming events
 - User will need to scroll to bottom of the page (note: may need to be developed for better sign-posting)
@@ -174,21 +180,15 @@ Desired outcome: View photos
 - Size of photos is flexible and responds according to smaller screen size
 
 Bugs:
+- Zero height issue where the footer collapsed and sat ontop of the page content. This was fixed using a 'clearfix'
 - Using the hamburger menu after collapse on smaller screens not working.
 - Padding-bottom on Photos page not showing meaning gallery is too close to the footer
-- Header on More Releases section under Music does not center and sit about the hr element
+- Header on More Releases section under Music does not center and sit about the hr element (FIXED- Removed header)
 
 
 ## Deployment
 
 The website was deployed using GitHub Pages. The GitHub Pages site was built from the master branch. 
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 ## Credits
 
