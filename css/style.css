@@ -295,10 +295,6 @@ form {
     background: #eceff1;
 }
 
-.booking-form h2 {
-    font-size: 300%;
-}
-
 /* ----- hover ----- */
 
 /* hover effect (red shadow) */
@@ -320,7 +316,6 @@ form {
 
 
 /* ----- media queries ----- */
-
 
 @media only screen and (max-width: 992px) {
     .responsive {
