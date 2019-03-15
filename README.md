@@ -8,7 +8,12 @@ The project brought on a steep learning curve as I attempted to apply many of th
 few modules. This required lots of problem solving, researching and some support theough Slack and from my mentor. 
 
 ## UX
+The 5 planes of the user exeprience were considered in the design of this website: Strategy, Scope, Structure, Skeleton and Surface.
 
+- Aim of the website (strategy): Provide a website that attracts new fans, provides news and updates for current fans including the latest music. The website will
+also add as a conduit to secure bookings for events.
+
+- Scope: User Stories (see list of feautures below)
 As a fan of the Monkees, I would like to stay updated on the latest releases, news and events. The jumbotron on the hompeage catches my
 eye and alerts me to a new album. Also, from the homepage I can get most of the information I need and find links to the latest music including from popular music streaming site, Spotify. I can view forthcoming events and follow links
 to ticket selling websites so that I can purhcase online. I can listen to music from within the website or follow links elsewhere.
@@ -22,6 +27,13 @@ the biography, view photos of the band in the gallery and listen to their music 
 Most importantly, I can sample their music through embedded audio and video files. I can also follow links to other albums on popular 
 streaming servive, Spotify. I can then follow the links in the navbar or footer to the Contact page so that I can make an enquiry and 
 book up the band to play at my event.
+
+- Structure / Skeleton: The structure and skeleton was kept simple but as a web developer I will neeed to improve my wireframing to ensure the planning stage is effective
+and efficient. The learning process from this project will make this more achievable in future projects.
+
+- Surface: The surface of the website was designed with a semi-modern style that still captures the essence of the 60s band. The red theme
+runs through each page and the two different font styles were chosen to contrast and complement each other. The buttons tie in with the footer and 
+the hover style ties in with the red theme.
 
 
 ## Features
@@ -97,13 +109,17 @@ of a recent wedding or party.
 
 ## Technologies, frameorks and libraries Used
 
+#### HTML5 and CSS3
+HTML5 was used to construct the website
+CSS3 was used to add styling to the website, and customsisation of the frameworks and libraries listed below.
+
 #### Boostrap (jumotron, form, tables, card-decks, navbar, grid)
 https://getbootstrap.com/docs/4.3/getting-started/introduction/ 
 I used Boostrao to provide framework to key features and to save developer time.
 
 #### FancyBox3 / FancyApps / jQuery
 https://fancyapps.com/fancybox/3/
-I used Fancybox to improve tje user experience when viewing photos in the gallery. This needed the latest jQuery link to make it work.
+I used Fancybox to improve the user experience when viewing photos in the gallery. This needed the latest jQuery link to make it work.
 
 #### Embedded YouTube video using iFrame
 https://www.youtube.com/
@@ -120,29 +136,52 @@ I used two Google fonts to create a personal style for the website.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that 
-the site works well. Essentially, in this part you will want to go over all of your user stories from the UX 
-section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to 
-achieve their goals. Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of 
-your approach, link to the test file(s) and explain how to run them.
+### Browsers tested on:
+- Chrome
+- Safari
+- Mozilla Firefox
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
-A particularly useful form for describing your testing process is via scenarios, such as:
+### Devices tested on
+- MacBook Pro
+- ipad
+- iPhone
 
-Contact form:
-Go to the "Contact Us" page by following the link in the footer
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### Manual Tests
+Desired outcome: Listen to new album
+- Click on call-to-action button on homepage and this takes users to Spotify
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Desired outcome: Book up an event
+- Follow link from news updates on homepage by clicking on image link and this takes users to Contact page
+- Users can complete the form and submit (not in this version)
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Desired outcome: Listen to music
+- Click on the Music menu item in the Navbar and verify that this takes users to music page
+- Click on albu cover and this takes users to Spotify
+- Click on Spotify audio play bar to verify that users can listen to the album
+- click on album covers to verify that this takes users to Spotify to view and listen to albums
+- Try to listen to music on smaller screen indicates that the page is responsive but needs further adaptions for a better user experience. For example,
+the 'More Releases' album covers are too small.
+
+Deaired outcome: View forthcoming events
+- User will need to scroll to bottom of the page (note: may need to be developed for better sign-posting)
+- events are clear and can be viewed on smaller screens using horizontal scroll
+- clicking on news link "Latest Tour dates" takes users to Ticket Master but does not open in a new window (add target:_blank)
+
+Desired outcome: View photos
+- Click on the menu item in the Navbar takes users to correct the page.
+- Clicking on the photo opens the photo viewer (fancybox)
+- Scrolling through photos using arrows takes users to the next photo
+- Size of photos is flexible and responds according to smaller screen size
+
+Bugs:
+- Using the hamburger menu after collapse on smaller screens not working.
+- Padding-bottom on Photos page not showing meaning gallery is too close to the footer
+- Header on More Releases section under Music does not center and sit about the hr element
+
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The website was deployed using GitHub Pages. The GitHub Pages site was built from the master branch. 
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 
