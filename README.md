@@ -172,6 +172,7 @@ Deaired outcome: View forthcoming events
 - User will need to scroll to bottom of the page (note: may need to be developed for better sign-posting)
 - events are clear and can be viewed on smaller screens using horizontal scroll
 - clicking on news link "Latest Tour dates" takes users to Ticket Master but does not open in a new window (add target:_blank)
+- Links are not working to go to ticket site. href needs to be added.
 
 Desired outcome: View photos
 - Click on the menu item in the Navbar takes users to correct the page.
