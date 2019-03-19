@@ -20,6 +20,14 @@
     padding-right: 20px;
 }
 
+#navbarNav .nav-item {
+    background-color: #7f0000;
+    padding-left: 10px;
+    text-align: center;
+    position: relative;
+    
+}
+
 /* ----- main image and text ----- */
 
 .album-cover{
@@ -32,23 +40,8 @@
     background-size: cover;
 }
 
-
-/* how do I target the button to remove blue underline?*/
-
 .btn btn-dark {
     font-family: 'Oswald', sans-serif;
-    text-decoration: none;
-}
-
-p.btn btn-dark {
-    text-decoration: none;
-}
-
-div.button {
-    text-decoration: none;
-}
-
-p.button{
     text-decoration: none;
 }
 
@@ -286,14 +279,20 @@ html {
 /* ------ form------- */
 
 form {
-    padding: 30px 30px;
+    padding: 50px 30px;
+    font-family: 'Inconsolata', monospace;
 }
 
 .booking-form {
     width: 100%;
-    padding: 20px;
-    margin: 30px 20px;
-    background: #eceff1;
+    padding: 10px;
+    margin: 40px 20px;
+    font-family: 'Inconsolata', monospace;
+    /*background: #eceff1; */
+}
+
+.booking-form img {
+    text-align: center;
 }
 
 /* ----- hover ----- */
