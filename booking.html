@@ -40,42 +40,66 @@
                     <a class="nav-link" href="photos.html">Photos</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Booking</a>
+                    <a class="nav-link" href="booking.html">Booking</a>
                 </li>
             </ul>
         </div>
     </nav>
-    
     <main>
-        <section class="container">
+        <section class="container-fluid">
             <h1 class="page-header">Booking Form</h1>
             <hr class="hr-dark">
-            
-        <!-- Booking -->
             <div class="booking-form mx-auto text-center">
-                <h2 class="display-4">Book The Monkees now</h2>
+                <h2 class="display-4">Book The Monkees now!</h2>
                 <p class="lead">You could have The Monkees play for your special occasion!
                     <br>Get in touch today to find out more information...
                 </p>
             </div>
-            <div class="live-image"><img src="images/monkeeslivewembley.jpeg"></div>
+            <div class="live-image text-center"><img src="images/monkeeslivewembley.jpeg"></div>
             <h2 class="page-header">Complete the form below</h2>
             <hr class="hr-dark">
-                <div class="form-group align-items-center">
-                    <label for="exampleFormControlTextarea1">First Name</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+            <form class="application mx-auto">
+                <div class="form-row">
+                    <div class="form-group col">
+                        <label for="exampleFormControlTextarea1">First Name</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                    </div>
+                    <div class="form-group col">
+                        <label for="exampleFormControlTextarea1">Last Name</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                    </div>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Last Name</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
+                    <label for="exampleInputEmail1">Address Line 1</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Phone number</label>
+                    <label for="exampleFormControlTextarea1">Address Line 2</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Town or City</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col">
+                        <label for="exampleFormControlTextarea1">County</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                    </div>
+                    <div class="form-group col">
+                        <label for="exampleFormControlTextarea1">Post Code</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col">
+                        <label for="exampleFormControlTextarea1">Email</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                    </div>
+                    <div class="form-group col">
+                        <label for="exampleFormControlTextarea1">Mobile</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                    </div>
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Date of event</label>
@@ -84,16 +108,16 @@
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Message</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <small id="emailHelp" class="form-text text-muted text-center">We'll never share your email with anyone else.</small>
                 </div>
-                <button type="submit" class="btn btn-dark">Submit</button>
+                <button type="submit" class="text-center btn btn-block btn-dark">Submit Your Details</button>
             </form>
         </section>
     </main>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="general-sub col-sm-12 col-md-8">
-                <a href="contact.html">Contact Us</a>
+                <a href="booking.html">Book Here</a>
                 <p>Miracle Music Studios, Los Angeles ©2019</p>
             </div>
             <div class="col-sm-12 col-md-4">

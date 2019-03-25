@@ -212,23 +212,10 @@ div.gallery a img {
   margin: 0;
 }
 
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-
 /* ------ Music ------- */
 
 .music-section-one {
     padding-bottom: 10px;
-}
-
-/*.sub-header h2 {
-    text-align: center;
-    padding: 50px; */
 }
 
 .youtube-video {
@@ -247,7 +234,7 @@ html {
   padding-right: 0;
 }
 
-.responsive-video iframe{
+.responsive-video iframe {
   position: absolute;
   top:0;
   left: 0;
@@ -261,7 +248,7 @@ html {
     text-align: right;
 }
 
-.artwork img{
+.artwork img {
     width: 60%;
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -274,14 +261,13 @@ html {
 
 .spotify {
     text-align: right;
-    padding: 20px
-    /*max-width: 75%; */
-    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */ 
+    padding: 20px;
+    max-width: 100%;
 }
 
 .more-releases {
     width: 100%;
-    text-align: center
+    text-align: center;
 }
 
 .more-releases img {
@@ -290,15 +276,14 @@ html {
     margin: 10px;
 }
 
-
 /* ------ form------- */
 
-form {
-    width: 50%;
-    padding: 50px 30px;
-    font-family: 'Inconsolata', monospace;
+.application {
     background-color: #eceff1;
-    position: relative;
+    width: 80%;
+    padding: 20px;
+    margin: 30px;
+    font-family: 'Inconsolata', monospace;
 }
 
 .booking-form  {
@@ -307,15 +292,12 @@ form {
     padding: 5px;
     margin: 20px 20px;
     font-family: 'Inconsolata', monospace;
-    /*background: #eceff1;*/
 }
 
-.live-image {
-    width: 85%;
-    margin: 0 auto;
-    text-align: center;
-    padding-bottom: 40px;
-    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+.live-image img {
+    width: 80%;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* ----- hover ----- */
@@ -405,8 +387,20 @@ form {
      .artwork img {
         width: 90%;
      }
+     .event-listing {
+        padding: 5px 40px 40px 10px;
+        width: 100%;
+        font-family: 'Inconsolata', monospace;
+        overflow: auto;
+}
 }
     
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 .clearfix:after {
   content: "";

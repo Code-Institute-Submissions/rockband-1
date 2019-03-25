@@ -50,10 +50,10 @@ The hover on the social media link matches that of the buttons.
 - Jumbotron: I used a Bootrap Jumbotron and backgroun to catch the user's eye on landing, with a call-to-action button. This was customised
 through font colour and transparent background (as well appropriate padding etc) so that the background image shows through.
 
-- Card-deck: I used the boostrap Card deck to organise the 'latest news'. These then link to sections of the website. Three cards are shown
-on larger devices and this changes to two on smaller devices to maximise the use of the screen and avoid one 'dropping' to the line below.
+- Card-deck: I used the boostrap Card deck to organise the 'latest news'. These then link to sections of the website via the buttons. 
+Three cards are shown on larger devices and this changes to two on smaller devices to maximise the use of the screen and avoid one 'dropping' to the line below.
 
-- Boostrap table: Again using Boostrap to provide the foundations. Font styles andf colours were customised and buttons were 
+- Boostrap table: Again using Boostrap to provide the foundations. Font styles and colours were customised and buttons were 
 added as calls-to-action. The hover on the buttons ties in with the colour of the NavBar as do all buttons on the website. The table is 
 made responsive throught the overflow feature that allows the user to scroll. 
 
@@ -85,7 +85,8 @@ to follow a link to Spotofy where they can listen to the album in full.
 - at the foot of the page there is a selection of other albums each linking to Spotify so that can be listened to in full.
 
 #### Future developments- 
-More videos could be added to improve this page (or a feature that allows you to scroll through a selection)
+More videos could be added to improve this page (or a feature that allows you to scroll through a selection). Two smaller videos below the large 
+main video.
 A wider music selection could be added here or a tool for scrolling through songs.
 
 ### Photos 
@@ -112,12 +113,6 @@ of a recent wedding or party.
 #### HTML5 and CSS3
 HTML5 was used to construct the website
 CSS3 was used to add styling to the website, and customsisation of the frameworks and libraries listed below.
-
-#### Cloud9
-The IDE used to develop the website was Cloud9
-
-### GitHub
-GitHub was used to back up the code via a remote reposistory.
 
 #### Boostrap (jumotron, form, tables, card-decks, navbar, grid)
 https://getbootstrap.com/docs/4.3/getting-started/introduction/ 
@@ -182,8 +177,8 @@ Desired outcome: View photos
 
 Bugs:
 - Zero height issue where the footer collapsed and sat ontop of the page content. This was fixed using a 'clearfix'
-- Using the hamburger menu after collapse on smaller screens not working.
-- Padding-bottom on Photos page not showing meaning gallery is too close to the footer
+- Using the hamburger menu after collapse on smaller screens not working. FIXED
+- Padding-bottom on Photos page not showing meaning gallery is too close to the footer.
 - Header on More Releases section under Music does not center and sit about the hr element (FIXED- Removed header)
 
 
